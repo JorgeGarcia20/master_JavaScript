@@ -1,0 +1,115 @@
+<DOCTYPE HTML>
+  <html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Estructura basica de HTML</title>
+  </head>
+
+  <body>
+    <h1>Titulo de la WEB</h1>
+    <h2>Bienvenidos a mi WEB</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci maxime odit veritatis culpa rerum nam
+      suscipit amet debitis ut! Modi voluptas odit ipsam facere aut voluptatibus vero fugiat aspernatur, deleniti enim
+      eius ullam quibusdam magnam ea debitis amet aperiam et consectetur reiciendis dignissimos illo quod facilis.
+      Tempore tempora suscipit quia beatae ad rem deserunt necessitatibus repellat temporibus, autem nisi ut dolorum
+      aliquam doloribus quod provident, et molestiae fugiat excepturi officia cupiditate eaque? Labore laudantium
+      commodi suscipit veniam vitae quisquam pariatur quas repellendus, minima temporibus quaerat architecto modi in
+      aut!
+    </p>
+    <hr />
+    <!--inserta una linea divisoria-->
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci maxime odit veritatis culpa rerum nam
+      suscipit amet debitis ut! Modi voluptas odit ipsam facere aut voluptatibus vero fugiat aspernatur, deleniti enim
+      eius ullam quibusdam magnam ea debitis amet aperiam et consectetur reiciendis dignissimos illo quod facilis.
+      Tempore tempora suscipit quia beatae ad rem deserunt necessitatibus repellat temporibus, autem nisi ut dolorum
+      aliquam doloribus quod provident, et molestiae fugiat excepturi officia cupiditate eaque? Labore laudantium
+      commodi suscipit veniam vitae quisquam pariatur quas repellendus, minima temporibus quaerat architecto modi in
+      aut!
+    </p>
+    <hr />
+    <p>
+      <em>Para hacer que el estilo del texto sea cursivo usamos la etiqueta em.</em>
+      <hr />
+      <strong>Para hacer que el texto sobresalte usamos la etiqueta strong.</strong>
+      <hr />
+    <blockquote>
+      Con la etiqueta blockquote le doy un estilo al texto como si se tratara de una cita.
+    </blockquote>
+    <hr />
+    </p>
+    <h3>Listas ordenadas</h3>
+    <h4>Lista de frutas</h4>
+    <ol>
+      <li>Manzana</li>
+      <li>Banana</li>
+      <li>Kiwi</li>
+      <li>Mango</li>
+    </ol>
+    <hr>
+    <h3>Lista desordenada</h3>
+    <h4>Lista de frutas</h4>
+    <ul>
+      <li>Manzana
+        <ul>
+          <li>Roja</li>
+          <li>Verde</li>
+          <li>Amarilla</li>
+        </ul>
+      </li>
+      <li>Banana</li>
+      <li>Kiwi</li>
+      <li>Mango</li>
+    </ul>
+
+    <h3>Imagenes</h3>
+    <img src="images/cachorros.jpg" alt="Cachorritos bulldog" title="Cachorritos" width="300px">
+    <hr>
+
+    <h3>Tablas</h3>
+    <table border="1">
+      <tr>
+        <th>Nombre</th>
+        <!--th hace que sobresalte el texto-->
+        <th>Apellido</th>
+        <th>Pais</th>
+      </tr>
+      <tr>
+        <td>Jorge</td>
+        <td>Garcia</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Jose</td>
+        <td>Estrada</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+
+    <h3>Formularios</h3>
+    <form action="">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" placeholder="Escribe tu nombre">
+      <br>
+      <br>
+      <label for="descripcion">Descripcion</label>
+      <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+      <br>
+      <hr>
+      <input type="radio" name="genero" value="hombre">Hombre <br>
+      <input type="radio" name="genero" value="mujer">Mujer <br>
+      <input type="radio" name="genero" value="indefinido">indefinido <br>
+      <hr>
+      <select name="genero" id="">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+        <option value="indefinido">Indefinido</option>
+      </select>
+      <input type="submit" value="Enviar formulario">
+    </form>
+
+  </body>
+
+  </html>
